@@ -314,7 +314,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Media
 
-- All media was created by myself including card images
+- Masthead backgroud image - [Freepik](https://www.freepik.com/free-photo/beautiful-shot-sydney-harbor-bridge-with-light-pink-blue-sky_10399362.htm#query=sydney&position=0&from_view=search&track=sph&uuid=ce4ecea8-9b88-4c4b-8630-f9f657464361)
 
 ### Audio
 
