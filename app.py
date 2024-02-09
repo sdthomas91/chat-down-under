@@ -1,7 +1,14 @@
-from flask import Flask, render_template
+# IMPORTS
 import os
+from flask import Flask, render_template, request, flash
+from settings import SECRET_KEY
 
+# Flask app instance
 app = Flask(__name__)
+
+
+# Set a secret key for Flask
+app.secret_key = SECRET_KEY
 
 # app routing
 
