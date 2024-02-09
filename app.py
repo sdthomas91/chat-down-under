@@ -7,7 +7,9 @@ from flask import Flask, render_template, request, flash
 app = Flask(__name__)
 
 
-# app routing
+# MAIN NAV ROUTES
+
+
 @app.route("/")
 def index():
     """
@@ -33,6 +35,9 @@ def topics():
     return render_template("topics.html")
 
 
+# LOGIN/LOGOUT/SIGNUP
+
+
 @app.route("/signup")
 def signup():
     """
@@ -47,6 +52,14 @@ def login():
     Navigate to the login page
     """
     return render_template("login.html")
+
+
+@app.route("/logout")
+def logout():
+    """
+    Navigate to the logout page
+    """
+    return render_template("logout.html")
 
 
 if __name__ == "__main__":
