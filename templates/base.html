@@ -46,26 +46,26 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ml-auto main-nav-links">
           <li class="nav-item active">
-            <a class="nav-link" href="{{ url_for('index') }}"
+            <a class="nav-link" href="{{ url_for('routes.index') }}"
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ url_for('about') }}">About</a>
+            <a class="nav-link" href="{{ url_for('routes.about') }}">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ url_for('topics') }}">Topics</a>
+            <a class="nav-link" href="{{ url_for('routes.topics') }}">Topics</a>
           </li>
         </ul>
         <ul class="nav navbar-nav customer-links">
           <!-- **** Used stack overflow for signup login layout https://stackoverflow.com/questions/53339351/how-to-create-navigation-bar-with-login-sign-up-button-in-bootstrap-4 **** -->
           <li class="nav-item">
-            <a class="nav-link" href="{{ url_for('signup') }}"
+            <a class="nav-link" href="{{ url_for('routes.signup') }}"
               ><span class="fas fa-user"></span> Sign Up</a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ url_for('login') }}"
+            <a class="nav-link" href="{{ url_for('routes.login') }}"
               ><span class="fas fa-sign-in-alt"></span> Login</a
             >
           </li>
